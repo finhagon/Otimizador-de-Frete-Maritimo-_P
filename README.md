@@ -5,7 +5,7 @@ Filtro em Cascata: Seleção dinâmica por Porto de Origem e Porto de Destino.
 
 Análise Multicritério: Avalia simultaneamente Frete, Transit Time e Free Time.
 
-Pesos Personalizáveis: O sistema utiliza pesos configurados no código (60% Preço, 30% Transit Time, 10% Free Time) para calcular a melhor opção.
+Pesos Personalizáveis: O sistema utiliza pesos configurados no código (60% Preço, 30% Transit Time, 10% Free Time) para calcular a melhor opção. *Os pesos devem ser alterados conforme necessidade do usuario.
 
 Ranking Top 3: Exibição clara das três melhores opções com destaque visual para a vencedora.
 
