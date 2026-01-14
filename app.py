@@ -54,7 +54,7 @@ if file:
                     df_f['n_FT'] = scaler.fit_transform(df_f[['Fretime']])
                     
                     # Cálculo Score 0-100
-                    df_f['Score'] = ((df_f['n_P']*0.6) + (df_f['n_TT']*0.3) + (df_f['n_FT']*0.1)) * 100
+                    df_f['Score'] = ((df_f['n_P']*0.5) + (df_f['n_TT']*0.4) + (df_f['n_FT']*0.1)) * 100
                 else:
                     df_f['Score'] = 100.0
 
@@ -91,4 +91,5 @@ if file:
     except Exception as e:
         st.error(f"Erro no processamento: {e}")
 else:
+
     st.info("👋 Por favor, suba o arquivo CSV na barra lateral.")
